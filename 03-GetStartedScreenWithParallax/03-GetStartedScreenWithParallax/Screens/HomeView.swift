@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @AppStorage("onboarding") var inOnboardingViewActive: Bool = false
+    @State private var isAnimating: Bool = false
     
     var body: some View {
         VStack(spacing: 20){
@@ -21,6 +22,8 @@ struct HomeView: View {
                     .resizable()
                     .scaledToFit()
                 .padding()
+                .offset(y: isAnimating ? 35 : -35)
+                .animation(.easeInOut(duration: 4) .repeatForever(), value: isAnimating)
             }
             // MARK: - CENTER
             Text("The time that leads to mastery is dependent on the intensity of our focus.")
@@ -36,7 +39,9 @@ struct HomeView: View {
 
            
             Button(action: {
-                inOnboardingViewActive = true
+                withAnimation {
+                    inOnboardingViewActive = true
+                }
             }){
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
                     .imageScale(.large)
@@ -49,6 +54,11 @@ struct HomeView: View {
             .buttonBorderShape(.capsule)
             .controlSize(.large)
         } //: VStack
+        .onAppear(perform: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3 , execute: {
+                isAnimating = true
+            })
+        })
     }
 }
 
