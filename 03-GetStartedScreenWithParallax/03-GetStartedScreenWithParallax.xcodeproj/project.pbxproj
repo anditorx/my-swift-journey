@@ -13,6 +13,8 @@
 		E5DF0A8C28C743BD00836303 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0A8B28C743BD00836303 /* Preview Assets.xcassets */; };
 		E5DF0A9428C745FC00836303 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0A9228C745FB00836303 /* chimeup.mp3 */; };
 		E5DF0A9528C745FC00836303 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0A9328C745FB00836303 /* success.m4a */; };
+		E5DF0A9B28C7543900836303 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9A28C7543900836303 /* OnBoardingView.swift */; };
+		E5DF0A9D28C7544200836303 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9C28C7544200836303 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		E5DF0A8B28C743BD00836303 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5DF0A9228C745FB00836303 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		E5DF0A9328C745FB00836303 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		E5DF0A9928C753AE00836303 /* -3-GetStartedScreenWithParallax-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-3-GetStartedScreenWithParallax-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E5DF0A9A28C7543900836303 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		E5DF0A9C28C7544200836303 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +60,7 @@
 		E5DF0A8328C743BC00836303 /* 03-GetStartedScreenWithParallax */ = {
 			isa = PBXGroup;
 			children = (
+				E5DF0A9928C753AE00836303 /* -3-GetStartedScreenWithParallax-Info.plist */,
 				E5DF0A9828C74A0C00836303 /* Views */,
 				E5DF0A9628C7460C00836303 /* Sounds */,
 				E5DF0A8428C743BC00836303 /* _3_GetStartedScreenWithParallaxApp.swift */,
@@ -86,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				E5DF0A8628C743BC00836303 /* ContentView.swift */,
+				E5DF0A9A28C7543900836303 /* OnBoardingView.swift */,
+				E5DF0A9C28C7544200836303 /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -169,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DF0A9B28C7543900836303 /* OnBoardingView.swift in Sources */,
+				E5DF0A9D28C7544200836303 /* HomeView.swift in Sources */,
 				E5DF0A8728C743BC00836303 /* ContentView.swift in Sources */,
 				E5DF0A8528C743BC00836303 /* _3_GetStartedScreenWithParallaxApp.swift in Sources */,
 			);
@@ -304,11 +314,11 @@
 				DEVELOPMENT_TEAM = 59TX2V2L74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-3-GetStartedScreenWithParallax-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,11 +343,11 @@
 				DEVELOPMENT_TEAM = 59TX2V2L74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-3-GetStartedScreenWithParallax-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
