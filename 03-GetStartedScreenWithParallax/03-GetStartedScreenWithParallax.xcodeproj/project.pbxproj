@@ -15,6 +15,7 @@
 		E5DF0A9528C745FC00836303 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E5DF0A9328C745FB00836303 /* success.m4a */; };
 		E5DF0A9B28C7543900836303 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9A28C7543900836303 /* OnBoardingView.swift */; };
 		E5DF0A9D28C7544200836303 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9C28C7544200836303 /* HomeView.swift */; };
+		E5DF0A9F28C7B7C100836303 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9E28C7B7C100836303 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E5DF0A9928C753AE00836303 /* -3-GetStartedScreenWithParallax-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-3-GetStartedScreenWithParallax-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E5DF0A9A28C7543900836303 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		E5DF0A9C28C7544200836303 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E5DF0A9E28C7B7C100836303 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		E5DF0A9828C74A0C00836303 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E5DF0A9E28C7B7C100836303 /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DF0A9F28C7B7C100836303 /* CircleGroupView.swift in Sources */,
 				E5DF0A9B28C7543900836303 /* OnBoardingView.swift in Sources */,
 				E5DF0A9D28C7544200836303 /* HomeView.swift in Sources */,
 				E5DF0A8728C743BC00836303 /* ContentView.swift in Sources */,
