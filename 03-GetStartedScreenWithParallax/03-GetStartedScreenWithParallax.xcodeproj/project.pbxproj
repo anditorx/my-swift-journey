@@ -16,6 +16,7 @@
 		E5DF0A9B28C7543900836303 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9A28C7543900836303 /* OnBoardingView.swift */; };
 		E5DF0A9D28C7544200836303 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9C28C7544200836303 /* HomeView.swift */; };
 		E5DF0A9F28C7B7C100836303 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0A9E28C7B7C100836303 /* CircleGroupView.swift */; };
+		E5DF0AA228C7C6AD00836303 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF0AA128C7C6AD00836303 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E5DF0A9A28C7543900836303 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		E5DF0A9C28C7544200836303 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E5DF0A9E28C7B7C100836303 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		E5DF0AA128C7C6AD00836303 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		E5DF0A8328C743BC00836303 /* 03-GetStartedScreenWithParallax */ = {
 			isa = PBXGroup;
 			children = (
+				E5DF0AA028C7C68F00836303 /* Utilities */,
 				E5DF0A9928C753AE00836303 /* -3-GetStartedScreenWithParallax-Info.plist */,
 				E5DF0A9828C74A0C00836303 /* Views */,
 				E5DF0A9628C7460C00836303 /* Sounds */,
@@ -106,6 +109,14 @@
 				E5DF0A9E28C7B7C100836303 /* CircleGroupView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E5DF0AA028C7C68F00836303 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E5DF0AA128C7C6AD00836303 /* AudioPlayer.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				E5DF0A9D28C7544200836303 /* HomeView.swift in Sources */,
 				E5DF0A8728C743BC00836303 /* ContentView.swift in Sources */,
 				E5DF0A8528C743BC00836303 /* _3_GetStartedScreenWithParallaxApp.swift in Sources */,
+				E5DF0AA228C7C6AD00836303 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

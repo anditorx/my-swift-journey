@@ -40,7 +40,9 @@ struct HomeView: View {
            
             Button(action: {
                 withAnimation {
+                    playSound(sound: "success", type: "m4a")
                     inOnboardingViewActive = true
+                    
                 }
             }){
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
